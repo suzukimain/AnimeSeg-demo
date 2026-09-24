@@ -2,6 +2,12 @@
 
 [Zenn記事](https://zenn.dev/suzukimain/articles/bef0dc4a1510c3)で扱ったsegmentation architectureを共通interfaceから実行するminimal inference demo。
 
+## Example
+
+![Animated five-model comparison](examples/test/comparison.gif)
+
+[Color-mask comparison](examples/test/comparison_masks.png)
+
 ## Supported Models
 
 | Folder | Architecture | Checkpoint | Classes | Input Size |
@@ -48,8 +54,5 @@ AnimeSegPipelineDemo.from_mask2former()
 
 https://huggingface.co/suzukimain/AnimeSeg-demo
 
-## Example
 
-![Animated five-model comparison](examples/test/comparison.gif)
 
-[Color-mask comparison](examples/test/comparison_masks.png)
