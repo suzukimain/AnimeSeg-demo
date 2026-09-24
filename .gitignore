@@ -1,0 +1,16 @@
+hf_upload/
+HF_UPLOAD_MANIFEST.md
+.validation/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt

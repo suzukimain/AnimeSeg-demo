@@ -1,0 +1,1 @@
+"""Private ThinHRNet/OCR implementation."""

@@ -1,0 +1,42 @@
+{
+  "models": [
+    {
+      "FilePath": "dinov2_unetpp/dinov2_unetpp.safetensors",
+      "TrainImageSize": 768,
+      "Version": 2,
+      "Architecture": "dinov2",
+      "BaseModel": "facebook/dinov2-large",
+      "Config": {
+        "merged_full": true
+      }
+    },
+    {
+      "FilePath": "oneformer/oneformer_dev.safetensors",
+      "TrainImageSize": 768,
+      "Version": "dev",
+      "Architecture": "oneformer"
+    },
+    {
+      "FilePath": "thinhrnet_ocr/thinhrnet_ocr_dev.safetensors",
+      "TrainImageSize": 512,
+      "Version": "dev",
+      "Architecture": "thinhrnet_ocr"
+    },
+    {
+      "FilePath": "afs/afs_unet_dev.safetensors",
+      "TrainImageSize": 1024,
+      "Version": "dev",
+      "Architecture": "afs"
+    },
+    {
+      "FilePath": "mask2former/mask2former.safetensors",
+      "TrainImageSize": 768,
+      "Version": 4,
+      "Architecture": "mask2former",
+      "BaseModel": "facebook/mask2former-swin-large-ade-semantic",
+      "Config": {
+        "merged_full": true
+      }
+    }
+  ]
+}
