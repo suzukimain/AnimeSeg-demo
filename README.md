@@ -1,6 +1,6 @@
 # AnimeSeg Demo
 
-Zenn記事で扱ったsegmentation architectureを共通interfaceから実行するminimal inference demo。
+[Zenn記事](https://zenn.dev/suzukimain/articles/bef0dc4a1510c3)で扱ったsegmentation architectureを共通interfaceから実行するminimal inference demo。
 
 ## Supported Models
 
