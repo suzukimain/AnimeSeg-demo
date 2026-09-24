@@ -1,4 +1,7 @@
 # AnimeSeg Demo
+<img src="https://visitor-badge.laobi.icu/badge?page_id=suzukimain.AnimeSeg-demo" alt="Visitor Badge">
+
+
 
 [Zenn記事](https://zenn.dev/suzukimain/articles/bef0dc4a1510c3)で扱ったsegmentation architectureを共通interfaceから実行するminimal inference demo。
 
@@ -53,6 +56,7 @@ AnimeSegPipelineDemo.from_mask2former()
 ## Model Weights
 
 https://huggingface.co/suzukimain/AnimeSeg-demo
+
 
 
 
